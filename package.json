@@ -20,12 +20,12 @@
   "main": "index.js",
   "types": "index.d.ts",
   "bugs": {
-    "email": "florian.reinhart@gmail.com",
-    "url": "https://github.com/node-apn/node-apn/issues"
+    "email": "dezinezync@icloud.com",
+    "url": "https://github.com/dezinezync/node-apn/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-apn/node-apn.git"
+    "url": "https://github.com/dezinezync/node-apn.git"
   },
   "dependencies": {
     "debug": "^3.1.0",
@@ -42,7 +42,7 @@
     "sinon-chai": "^2.14.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha --exit"
   },
   "jshintConfig": {
     "node": true

@@ -80,6 +80,7 @@ interface Aps {
 
 export interface ResponseSent {
   device: string;
+  apnsUniqueID: string;
 }
 export interface ResponseFailure {
   device: string;
